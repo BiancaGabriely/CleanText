@@ -9,5 +9,5 @@ function apagar(){
     }
    const numeroFinal = numero.value.replace(/\s/g,"");
 
-   resultado.textContent = `Número sem espaços: ${numeroFinal}` ;
+   resultado.textContent = numeroFinal;
 }
