@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanText</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <main class="container">
+        <section class="card">
+
+
+
+            <div class="header">
+
+                <div class="logo">CT</div>
+
+                <div>
+                    <h1>CleanText</h1>
+                    <p>Remova espaços de uma sequência rapidamente.</p>
+                </div>
+            </div>
+
+            <div class="form">
+                <label for="numero">Insira o número:</label>
+                <input type="text" id="numero" placeholder="1234 5678 9012 3456" autocomplete="off">
+                <button type="submit" onclick="apagar()">Apagar Espaços</button>
+
+            </div>
+
+            <div class="resultado-container">
+                <div class="resultado-header">
+                    <span>Resultado</span>
+                </div>
+
+                <p id="resultado">O resultado aparecerá aqui...</p>
+            </div>
+
+            <footer>
+               CleanText · Simples, rápido e prático <br>
+               <i>© BiancaGabriely . 2026</i>
+            </footer>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
